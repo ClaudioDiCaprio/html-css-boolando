@@ -77,7 +77,8 @@
 }
 
 /* /link_hover_1stline */
-/* link_hover_1stline */
+
+/* link_hover_2ndline */
 
 .premier {
     background-image: url(../img/4.webp);
@@ -120,12 +121,7 @@
     background-image: url(../img/6b.webp);
 }
 
-
-
-/*/ link_hover_1stline */
-
-
-/* /hoover */
+/*/ link_hover_2ndline */
 
 /* cups */
 
@@ -172,6 +168,8 @@
 
 /* /price */
 
+/* little_tag */
+
 .whity {
     display: inline-block;
     width: 40px;
@@ -215,8 +213,10 @@
     text-align: center;
 }
 
+   /* /little_tag */
 
-
+        
+    
 
         /* debug */
 
