@@ -8,19 +8,50 @@
 
 .container {
     width: 1170px;
-    margin: 0 auto;
+    margin: 10px auto;
 }
 
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
 
+.box {
+    float: left;
+    width: calc(100% / 3 - 10px);
+    margin:  5px;
+    position: relative;
+}
 
+.box {
+    background-color: lawngreen;
+}
 
+.box:hover {
+    background-color: mediumblue;
+}    
+.whity {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    position: absolute;
+    font-size: 15px;
+}    
 
 
 
 
         /* debug */
-        
-    .container.debug {
-        height: 600px;
-        background-color: lightgray;
+
+.container.debug {
+    height: 700px;
+    background-color: lightgray;
     }
+
+.debug .box {
+    height: 600px;
+    
+    border: 1px solid black;
+}
