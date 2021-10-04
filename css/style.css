@@ -46,6 +46,34 @@
 .first:hover {
     background-image: url(../img/1b.webp);
 }
+
+.second {
+    background-image: url(../img/2.webp);
+    height: 624px;
+    width: 340;
+    background-position: center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.second:hover {
+    background-image: url(../img/2b.webp);
+}
+
+.third {
+    background-image: url(../img/3.webp);
+    height: 624px;
+    width: 340;
+    background-position: center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.third:hover {
+    background-image: url(../img/3b.webp);
+}
+
+
 .whity {
     display: inline-block;
     width: 40px;
