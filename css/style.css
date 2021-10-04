@@ -33,6 +33,8 @@
     background-color: mediumblue;
 }     */
 
+ /* link_hover_1stline */
+
 .first {
     background-image: url(../img/1.webp);
     height: 624px;
@@ -73,6 +75,55 @@
 .third:hover {
     background-image: url(../img/3b.webp);
 }
+
+/* /link_hover_1stline */
+/* link_hover_1stline */
+
+.premier {
+    background-image: url(../img/4.webp);
+    height: 624px;
+    width: 340;
+    background-position: center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.premier:hover {
+    background-image: url(../img/4b.webp);
+}
+
+.seconde {
+    background-image: url(../img/5.webp);
+    height: 624px;
+    width: 340;
+    background-position: center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.seconde:hover {
+    background-image: url(../img/5b.webp);
+}
+
+.troisieme {
+    background-image: url(../img/6.webp);
+    height: 624px;
+    width: 340;
+    background-position: center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.troisieme:hover {
+    background-image: url(../img/6b.webp);
+}
+
+
+
+/*/ link_hover_1stline */
+
 
 /* /hoover */
 
