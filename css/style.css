@@ -24,13 +24,24 @@
     position: relative;
 }
 
-.box {
+/* .box {
     background-color: lawngreen;
 }
 
 .box:hover {
     background-color: mediumblue;
-}    
+}     */
+
+.first {
+    background-image: url(../img/1.webp);
+    height: 624px;
+    width: 340;
+    background-position: center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+
+}
 .whity {
     display: inline-block;
     width: 40px;
@@ -47,30 +58,30 @@
 .red_square {
     display: inline-block;
     width: 40px;
-    height: 25px;
+    height: 20px;
     background-color: rgb(255, 0, 0);
     position: absolute;
     bottom: 20px;
     left: 0;
-    font-size: 12px;
+    font-size: 10px;
     font-weight: bold;
     color: white;
-    line-height: 25px;
+    line-height: 20px;
     text-align: center;
 }
 
 .green_square {
     display: inline-block;
     width: 80px;
-    height: 25px;
+    height: 20px;
     background-color: rgb(8, 92, 5);
     position: absolute;
     bottom: 20px;
     left: 45px;
-    font-size: 12px;
+    font-size: 10px;
     font-weight: bold;
     color: white;
-    line-height: 25px;
+    line-height: 20px;
     text-align: center;
 }
 
